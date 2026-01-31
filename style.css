@@ -2,7 +2,7 @@
 
 body {
   font-family: "Cabin";
-  background-color: #758190;
+  background-color: #2197ac;
 }
 
 #tentacles {
@@ -11,7 +11,7 @@ body {
 
 .header {
   display: flex;
-  background-color: lightblue;
+  background-color: rgb(20, 233, 169);
   padding: 1%;
   align-items: center;
   margin-left: -10px;
@@ -31,7 +31,7 @@ body {
 }
 
 .stats-card {
-  background-color: #a8b0bc;
+  background-color: #9fc732;
   border-radius: 7px;
   padding: 1%;
   margin: 1%;

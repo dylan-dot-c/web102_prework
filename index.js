@@ -41,7 +41,8 @@ function addGamesToPage(games) {
     <img src=${games[i].img} class="game-img"/>
     <h3>${games[i].name}</h3>
     <p>${games[i].description}</p>
-    <p>${games[i].pledged} ${games[i].backers} ${games[i].goal} 
+    <p>$${games[i].pledged.toLocaleString("en-US")}/${games[i].goal.toLocaleString("en-US")}</p>
+    <span>Backers: ${games[i].backers}</span>
   `;
 
     // set the inner HTML using a template literal to display some info
